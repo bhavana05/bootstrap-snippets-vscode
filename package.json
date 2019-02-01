@@ -1,0 +1,32 @@
+{
+    "name": "bootstrap-snippets-vscode",
+    "displayName": "bootstrap-snippets-vscode",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+          {
+            "language": "html",
+            "path": "./snippets/html.json"
+          },
+          {
+            "language": "javascript",
+            "path": "./snippets/javascript.json"
+          },
+          {
+            "language": "ruby",
+            "path": "./snippets/ruby.json"
+          },
+          {
+            "language": "css",
+            "path": "./snippets/css.json"
+          }
+        ]
+    }
+}

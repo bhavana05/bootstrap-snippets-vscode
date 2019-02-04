@@ -1,65 +1,32 @@
-# bootstrap-snippets-vscode README
+# bootstrap-snippets-vscode
 
-This is the README for your extension "bootstrap-snippets-vscode". After writing up a brief description, we recommend including the following sections.
+A set of bootstrap 4 snippets for visual studio code.
+Type the following keywords to see available snippets in your document.
+All the snippets available below required bootstrap4 css file.
+To use the bootstrap snippets, press `Ctrl+Space`. A list of bootstrap snippets will show up.
 
-## Features
+## Available Snippets
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+|Keyword|Description|Css|Javascript|Font-awesome|
+|--- |--- |--- |--- |--- |
+|media|media object|-|-|-|
+|card|card with image, text, rating and button|-|-|yes|
+|accordion|accordion with plus and minus icons that toggles|required custom css in css file|required bootstrap js|yes|
+|header-t-f|basic header with fixed on top|-|required bootstrap js|-|
+|tabs|Dynamic tab pills|-|required bootstrap js|-|
+|table-r|basic table with responsive|-|-|-|
+|carousel-slider|carousel with indicators,controls and captions|required custom css in css file|required bootstrap js|-|
+|timeline-r|timeline with responsive|required custom css in css file|-|yes|
+|footer|basic footer with four columns|required custom css in css file|-|-|
+|flip-card|Flips card on hover|required custom css in css file|-|-|
+|sidebar-icons|sticky sidebar collapse to icons with responsive|required custom css in css file|required custom javascript in javascript file|yes|
+|login-signup|basic login/signup form using modal|-|required bootstrap js|-|
 
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
+**Note:** 
+1. For required custom css and custom javascript, you need to open your css/javascript and type the same keyword to add respective css/javascript.
+2. All the available snippets required bootstrap 4 css.
+3. Required font-awesom version is 4.7.0.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**

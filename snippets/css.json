@@ -21,7 +21,7 @@
 	},
 	"Basic footer": {
 		"prefix": "footer",
-		"body": ".footer-v1.bg-img {\n  background-image: url('https://d8lvtxroobup7.cloudfront.net/production/assets_gc/Lotus.jpg');\n  background-repeat: repeat;\n}\n.headline {\n\tdisplay: block;\n\tmargin: 10px 0 25px 0;\n\tborder-bottom: 1px dotted #e4e9f0;\n  color: white;\n  font-size: 20px;\n}\n.headline p {\n\tmargin: 0 0 -2px 0;\n\tpadding-bottom: 5px;\n\tdisplay: inline-block;\n\tborder-bottom: 2px solid #7e57c2;\n}\n.link-list > li{\n  padding: 7px 0px;\n}\n.link-list > li > a , .link-list > li> i{\n  color:#eee;\n  font-size: 16px;\n}"
+		"body": ".footer-v1.bg-img {\n  background-color: black;\n  background-repeat: repeat;\n}\n.headline {\n\tdisplay: block;\n\tmargin: 10px 0 25px 0;\n\tborder-bottom: 1px dotted #e4e9f0;\n  color: white;\n  font-size: 20px;\n}\n.headline p {\n\tmargin: 0 0 -2px 0;\n\tpadding-bottom: 5px;\n\tdisplay: inline-block;\n\tborder-bottom: 2px solid #7e57c2;\n}\n.link-list > li{\n  padding: 7px 0px;\n}\n.link-list > li > a , .link-list > li> i{\n  color:#eee;\n  font-size: 16px;\n}"
 	},
 	"Flip card on hover": {
 		"prefix": "flip-card",

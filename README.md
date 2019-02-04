@@ -1,8 +1,11 @@
 # bootstrap-snippets-vscode
 
 A set of bootstrap 4 snippets for visual studio code.
+
 Type the following keywords to see available snippets in your document.
+
 All the snippets available below required bootstrap4 css file.
+
 To use the bootstrap snippets, press `Ctrl+Space`. A list of bootstrap snippets will show up.
 
 ## Available Snippets
